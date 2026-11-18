@@ -10,3 +10,12 @@
 ```bash
 uv run pytest -q
 ```
+
+## V-Model Empirical Verification ($N=100$)
+- **Pytest Suite**: `10/10` invariant tests passing (`0.02s`)
+- **Cohen's $d$**: `2.0566` | **Wald SPRT**: `+96.34` (`accept_h1`)
+- **Median Verifier Latency**: `0.0064 ms` p50
+
+## Hackathon Deliverables
+- **Submission Guide**: [`BUIDL_SUBMISSION.md`](BUIDL_SUBMISSION.md)
+- **2K QHD 6-Scene Walkthrough Video**: [`docs/delphi_evidence_demo.mp4`](docs/delphi_evidence_demo.mp4) (`2560×1440`, generated via `scripts/generate_pitch_video.py`)
